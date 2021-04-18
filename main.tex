@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Informe Parcial I}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Subtítulo
+            
+        \vspace{1.5cm}
+            
+        \textbf{Fabian Hoyos}
+        
+        \vspace{1.5cm}
+        
+        \textbf{Karen López}
+        
+        \vspace{1.5cm}
+        
+        \textbf{Yuribia Arroyave}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Departamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+       Abril de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Sección Introductoria}\label{intro}
+
+\section{Contenido} \label{contenido}
+
+\subsection{Análisis del Problema}
+
+\subsection{Esquema para el desarrollo del algoritmo}
+
+
+\subsection{Algoritmo inplementado}
+
+\subsection{Problemas que se presentaron}
+
+\subsection{Evolución y consideraciones}
+
+\section{Inclusión de imágenes} \label{imagenes}
+
+En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
+
+\begin{figure}[h]
+\includegraphics[width=4cm]{cpplogo.png}
+\centering
+\caption{Logo de C++}
+\label{fig:cpplogo}
+\end{figure}
+
+Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
